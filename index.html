@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Nulltestunde</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style type="text/css">
       html {
         position: relative;
@@ -13,6 +14,7 @@
         position: absolute;
         top: 30%;
         width: 100%;
+        text-align: center;
 
       }
 
@@ -27,14 +29,33 @@
         font-size: 18;
         color: #b8b8b8;
         text-align: center;
-
       }
+
+      .amazon-icon {
+        font-size: 30px;
+      }
+
+      .amazon-icon:hover {
+        color: #444;
+      }
+      
+      .amazon-icon:active {
+        color: #F2A419;
+      }
+
+      .plain-link {
+        color: #000;
+      }
+
     </style>
   </head>
   <body bgcolor="#f8f8f8">
     <div class="containter">
       <p class="title" id="title" onclick="onClick(this)">Nullte Stunde/Anne Stern</p>
       <p class="subtitle" id="subtitle" onclick="onClick(this)">Berlin/2015</p>
+      <a class="plain-link" href="http://amzn.to/1igO8aH" target="_blank">
+        <i class="fa fa-amazon amazon-icon"></i>
+      </a>
     </div>
 
     <script>
