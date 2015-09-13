@@ -127,9 +127,14 @@ body {
     font-size: 20px;  /* was 30px */
   }
 
-  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title, .index {
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title {
     font-size: 25px; /* was 30px */
   }
+
+  .index {
+    font-size: 20px;
+  }
+
 
   .cover .book-title {
     font-size: 40px;
@@ -148,10 +153,13 @@ body {
     font-size: 20px;  /* was 30px */
   }
 
-  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title, .index {
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title {
     font-size: 25px; /* was 30px */
   }
 
+  .index {
+    font-size: 20px;
+  }
   .cover .book-title {
     font-size: 40px;
   }
