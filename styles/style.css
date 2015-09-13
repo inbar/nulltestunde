@@ -18,27 +18,26 @@ body {
 }
 
 .page-number {
-  font-size: 30px;
+  font-size: 2.5vw;  /* was 30px */
 }
 
 .page-separator {
   padding: 30px 0;
-  font-size: 30px; 
+  font-size: 2.5vw;  /* was 30px */
   line-height: 30px;
 }
 
 .page-content {
   margin-top: 10%;
-  font-size: 23px;
+    font-size: 1.9vw;  /* was 23px */
 }
 
 .topbar {
-  /*background-color: #F1F1F1;*/
   position: fixed;
   left: 0;
   width: 100%;
   padding-top: 2vh;
-  font-size: 30px;
+  font-size: 3vw;
 }
 
 .cover {
@@ -46,22 +45,22 @@ body {
 }
 
 .cover .author-name {
-  font-size: 30px;  
+  font-size: 2.5vw; /* was 30px */
 }
 
 .cover .book-title {
   margin-top: 5%;
-  font-size: 50px;
+  font-size: 4.5vw;  /* was 50px */
   font-weight: 800;
 }
 
 .cover .book-subtitle {
-  font-size: 30px;  
+  font-size: 2.5vw;  /* was 30px */
 }
 
 .cover .kolumnen {
   margin-top: 20%;
-  font-size: 25px;  
+  font-size: 2vw;  /* was 25px */
 }
 
 .cover .kolumnen span {
@@ -71,7 +70,7 @@ body {
 }
 
 .index {
-  font-size: 30px;
+    font-size: 2.5vw;  /* was 30px */
 }
 
 .index a:hover, .index a:link, .index a:active, .index a:visited{
@@ -80,11 +79,11 @@ body {
 
 .page-title {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 2.5vw;  /* was 30px */
 }
 
 .index ul {
-  width: 60%;
+  /*width: 60%;*/
   margin-top: 20%;
   margin-left: auto;
   margin-right: auto; 
@@ -99,7 +98,7 @@ body {
 
 .add-dots:after {
   margin-left: 5px;
-  content: '.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   ';
+  content: '.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   ';
 }
 
 .cover-image {
