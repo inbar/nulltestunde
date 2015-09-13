@@ -1,6 +1,6 @@
 body {
   background-color: #444;
-  background-image: url("../images/bg/paper_texture_2.jpg");
+  background-image: url("../images/bg/paper_texture_2_1.jpg");
   background-size: 100%;
   /*background-size: contain;*/
   font-family: 'EB Garamond', serif;
@@ -17,19 +17,13 @@ body {
   padding: 2vh 2vw;
 }
 
-.page-number {
-  font-size: 2.5vw;  /* was 30px */
-}
-
 .page-separator {
   padding: 30px 0;
-  font-size: 2.5vw;  /* was 30px */
   line-height: 30px;
 }
 
 .page-content {
   margin-top: 10%;
-    font-size: 1.9vw;  /* was 23px */
 }
 
 .topbar {
@@ -37,30 +31,19 @@ body {
   left: 0;
   width: 100%;
   padding-top: 2vh;
-  font-size: 3vw;
 }
 
 .cover {
   padding-top: 15vh;
 }
 
-.cover .author-name {
-  font-size: 2.5vw; /* was 30px */
-}
-
 .cover .book-title {
   margin-top: 5%;
-  font-size: 4.5vw;  /* was 50px */
   font-weight: 800;
-}
-
-.cover .book-subtitle {
-  font-size: 2.5vw;  /* was 30px */
 }
 
 .cover .kolumnen {
   margin-top: 20%;
-  font-size: 2vw;  /* was 25px */
 }
 
 .cover .kolumnen span {
@@ -69,17 +52,12 @@ body {
   border-radius: 3px;
 }
 
-.index {
-    font-size: 2.5vw;  /* was 30px */
-}
-
 .index a:hover, .index a:link, .index a:active, .index a:visited{
   color: #333;
 }
 
 .page-title {
   margin-top: 50px;
-  font-size: 2.5vw;  /* was 30px */
 }
 
 .index ul {
@@ -130,4 +108,94 @@ body {
 .plain-link, .plain-link:visited, .plain-link:hover, .plain-link:active {
   color: #000;
   text-decoration: none;
+}
+
+
+/* Media queries */
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 767px) { 
+
+  .page-content {
+    font-size: 15px;
+  }
+
+  .page-number, .page-separator {
+    font-size: 20px;  /* was 30px */
+  }
+
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title, .index {
+    font-size: 25px; /* was 30px */
+  }
+
+  .cover .book-title {
+    font-size: 40px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .page-content {
+    font-size: 15px;
+  }
+
+  .page-number, .page-separator {
+    font-size: 20px;  /* was 30px */
+  }
+
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title, .index {
+    font-size: 25px; /* was 30px */
+  }
+
+  .cover .book-title {
+    font-size: 40px;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .page-content {
+    font-size: 23px;
+  }
+
+  .page-number, .page-separator {
+    font-size: 30px; 
+  }
+
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title, .index {
+    font-size: 30px; /* was 30px */
+  } 
+
+  .cover .book-title {
+    font-size: 50px;
+  }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .page-content {
+    font-size: 23px;
+  }
+
+   .page-number, .page-separator {
+    font-size: 30px; 
+  } 
+
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title , .index {
+    font-size: 30px;
+  }
+
+  .cover .book-title {
+    font-size: 50px;
+  }
+
 }
