@@ -31,6 +31,7 @@ body {
   left: 0;
   width: 100%;
   padding-top: 2vh;
+  z-index: 999;
 }
 
 .cover {
@@ -110,6 +111,10 @@ body {
   text-decoration: none;
 }
 
+.fb-buttons-container {
+  padding-left: 30px;
+  line-height: 30px;
+}
 
 /* Media queries */
 
