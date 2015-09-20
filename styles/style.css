@@ -116,7 +116,7 @@ body {
   line-height: 30px;
 }
 
-.twitter-share-button {
+.twitter-share-button, .twitter-follow-button {
   vertical-align: bottom;
 }
 
@@ -141,7 +141,7 @@ body {
   }
 
   .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title {
-    font-size: 25px; /* was 30px */
+    font-size: 24px; /* was 30px */
   }
 
   .index {
