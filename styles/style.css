@@ -120,6 +120,10 @@ body {
   vertical-align: bottom;
 }
 
+.twitter-timeline {
+  margin-top: 7% !important;
+}
+
 /* Media queries */
 
 
