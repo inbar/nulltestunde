@@ -111,9 +111,13 @@ body {
   text-decoration: none;
 }
 
-.fb-buttons-container {
+.share-buttons-container {
   padding-left: 30px;
   line-height: 30px;
+}
+
+.twitter-share-button {
+  vertical-align: bottom;
 }
 
 /* Media queries */
