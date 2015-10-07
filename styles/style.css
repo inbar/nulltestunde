@@ -26,16 +26,10 @@ body {
   margin-top: 10%;
 }
 
-.topbar {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  padding-top: 2vh;
-  z-index: 999;
-}
+
 
 .cover {
-  padding-top: 15vh;
+  padding-top: 17vh;
 }
 
 .cover .book-title {
@@ -124,13 +118,33 @@ body {
   margin-top: 7% !important;
 }
 
+
 /* Media queries */
 
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-@media (max-width: 767px) { 
+@media (min-width: 0px) { 
+
+  .topbar {
+    background-image: url("../images/bg/paper_texture_2_1.jpg");
+    background-size: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    padding-bottom: 1vh;
+    z-index: 999;
+    border-top: 1px solid #444;
+    border-bottom: 0;
+  }
+
+  .text-right {
+    padding-top: 20px;
+  }
+
 
   .page-content {
     font-size: 15px;
@@ -140,7 +154,7 @@ body {
     font-size: 20px;  /* was 30px */
   }
 
-  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .topbar, .page-title {
+  .cover .author-name, .cover .book-subtitle, .cover .kolumnen, .page-title {
     font-size: 24px; /* was 30px */
   }
 
@@ -156,7 +170,14 @@ body {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 490px) { 
+
+  .text-right {
+    padding-top: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+  }
 
   .page-content {
     font-size: 15px;
@@ -181,6 +202,22 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .topbar {
+    height: 11vh;
+    background-image: url("../images/bg/paper_texture_2_1_top.jpg");
+    background-size: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 1vh;
+    z-index: 999;
+    background-color: #EBD3B1;
+    border-bottom: 1px solid #444;
+    border-top: 0;
+  }
+
 
   .page-content {
     font-size: 23px;
