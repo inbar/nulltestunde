@@ -128,7 +128,7 @@ body {
 @media (min-width: 0px) { 
 
   .topbar {
-    height: 13vh;
+    height: 14vh;
     background-image: url("../images/bg/paper_texture_2_1.jpg");
     background-size: 100%;
     width: 100%;
@@ -205,7 +205,7 @@ body {
 @media (min-width: 992px) {
 
   .topbar {
-    height: 11vh;
+    height: 12vh;
     background-image: url("../images/bg/paper_texture_2_1_top.jpg");
     background-size: 100%;
     position: fixed;
