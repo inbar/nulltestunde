@@ -14,7 +14,7 @@ body {
 
 .page {
   height: 100vh;
-  padding: 2vh 2vw;
+  padding: 17vh 2vw;
 }
 
 .page-separator {
@@ -57,7 +57,7 @@ body {
 
 .index ul {
   /*width: 60%;*/
-  margin-top: 20%;
+  /*margin-top: 20%;*/
   margin-left: auto;
   margin-right: auto; 
 
