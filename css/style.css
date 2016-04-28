@@ -1221,3 +1221,7 @@ body.is-touch .wrapper.style3 {
 .bottom-cover {
   height: 13em;
 }
+
+.image.info {
+  margin-top: 3em;
+}
