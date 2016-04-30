@@ -128,12 +128,12 @@
               </div>
               <div class="row">
                   <div class="12u$">
-                    <a href="http://www.amazon.de/Nullte-Stunde-Neues-aus-Schule-ebook/dp/B0156O7JF8/ref=cm_rdp_product" target="_blank" class="button special order-button">Bei Amazon bestellen</a>
+                    <a id="amazon_button" href="http://www.amazon.de/Nullte-Stunde-Neues-aus-Schule-ebook/dp/B0156O7JF8/ref=cm_rdp_product" target="_blank" class="button special order-button">Bei Amazon bestellen</a>
                   </div>
                 </div>
                 <div class="row">
                   <div class="12u$">
-                    <a href="https://www.neobooks.com/ebooks/anne-stern-nullte-stunde-ebook-neobooks-AVRW3CMytJVf5VxhpY8n" target="_blank" class="button special order-button">Bei Neobooks bestellen</a>
+                    <a id="netbooks_button" href="https://www.neobooks.com/ebooks/anne-stern-nullte-stunde-ebook-neobooks-AVRW3CMytJVf5VxhpY8n" target="_blank" class="button special order-button">Bei Neobooks bestellen</a>
                   </div>
               </div>
             </div>
@@ -172,8 +172,13 @@
         ga('create', 'UA-60594796-1', 'auto');
         ga('send', 'pageview');
         function onClick(elm) {
-          // ga('send', 'event', 'text', 'click', elm.id);
+          ga('send', 'event', 'button', 'click', elm.srcElement.id);
+          console.log(elm);
         }
+
+        document.getElementById('amazon_button').addEventListener("click", onClick);
+        document.getElementById('netbooks_button').addEventListener("click", onClick);
+        
       </script>
 
 	</body>
